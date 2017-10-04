@@ -2,7 +2,7 @@ package com.sjrobotics.velocity.programmingCourse1;
 
 /**
  * This is for the Programming Course at 316
- *
+ * @author Noah Halstead
  */
 public class App 
 {
