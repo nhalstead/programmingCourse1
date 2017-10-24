@@ -4,6 +4,10 @@ public class Dog {
 	
 	private String name;
 	
+	public static String type (){
+		return "The Dog that has Class";
+	}
+	
 	public Dog() {
 		this.name = "Old No Name";
 	}

@@ -32,7 +32,8 @@ public class App
         System.out.print("\n");
         
         
-        Dog rockey = new Dog("rockey");
+        Dog rockey = new Dog("Rockey");
+        System.out.println(Dog.type());
         System.out.println(rockey.getName());
         rockey.bark();
         rockey.setName("Billy");
@@ -42,10 +43,5 @@ public class App
         Dog foundDog = new Dog();
         foundDog.bark();
         System.out.println(foundDog.getName());
-        
     }
-
-    
-    
-    
 }
